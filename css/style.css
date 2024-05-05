@@ -48,16 +48,28 @@ input::placeholder{
     width: 22px;
 }
 .wrapper{
-    width: 975px;
+    width: 980px;
     margin: 0 auto;
 }
 .profile_icon{
     width: 100px;
     height: 100px;
-    overflow: hidden;
-    border: 8px solid #20293A;
-    background: #fff;
-    border-radius: 8px;
+    background-image: url(../images/github_square_icon.svg);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 12px;
+    
+}
+.prof_wrap{
+    width: 114px;
+    height: 116px;
+    background: #20293A;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    top: -20px;
+    top: -30px;
 }
