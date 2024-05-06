@@ -8,9 +8,13 @@
 body{
     background: #20293A;
     width: 100%;
+    height: 800px;
     margin: 0 auto;
-
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
+ 
 header{
     width: 100%;
     height: 238px;
@@ -25,10 +29,9 @@ input[type="text"] {
     outline: none;
     border: none;
     background: transparent;
-    font-size: 17px;
+    font-size: 16px;
 }
 input::placeholder{
-    font-weight: 500;
     color: #97A3B6;
 
 }
@@ -41,14 +44,14 @@ input::placeholder{
     justify-content: start;
     margin-top: 28px;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 .search_icon{
     margin-left: 20px;
     width: 22px;
 }
 .wrapper{
-    width: 980px;
+    width: 970px;
     margin: 0 auto;
 }
 .upper_wrap{
@@ -70,7 +73,7 @@ input::placeholder{
     
 }
 .prof_wrap{
-    width: 114px;
+    width: 116px;
     height: 116px;
     background: #20293A;
     border-radius: 16px;
@@ -78,7 +81,7 @@ input::placeholder{
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -30px;
+    top: -25px;
 }
 .profile_info{
     display: flex;
@@ -118,4 +121,27 @@ input::placeholder{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 15px;
     color: #CDD5E0;
+ }
+ .lower_wrap{
+    width: 980px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+ }
+ .bio_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .username{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #CDD5E0;
+ }
+ #bio_id{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #798396;
  }
